@@ -26,9 +26,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__text/_large/intro__text_large.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/intro__list_item.css);
-@import url(../blocks/intro/__list/intro__list_item.css);
-@import url(../blocks/intro/__list/_bold/intro__list_item_bold.css);
+@import url(../blocks/intro/__list/intro__list-item.css);
+@import url(../blocks/intro/__list/intro__list-item.css);
+@import url(../blocks/intro/__list/_bold/intro__list-item-bold.css);
 @import url(../blocks/intro/__margin/lead__intro.css);
 
 /* Language */
