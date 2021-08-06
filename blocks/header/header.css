@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5% 3% 0;  As apposed to padding: 20px 16px 0; */
+    align-items: center;
+    max-width: 984px;
+    padding: 20px 16px 50px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 34px 24px 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 34px 48px 50px;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding-bottom: 75px;
+}

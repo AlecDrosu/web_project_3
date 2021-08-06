@@ -1,0 +1,16 @@
+.language__link {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.11;
+}
+
+@media screen and (min-width: 768px) {
+    .language__link {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
