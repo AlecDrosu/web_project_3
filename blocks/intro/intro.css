@@ -2,6 +2,7 @@
     padding: 0 16px;
     margin: 0;
     margin-bottom: 64px;
+    max-width: 690px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,14 +13,16 @@
 
 @media screen and (min-width: 1024px) {
     .intro {
-        padding: 0 48px;
-        max-width: 690px;
+        /* padding: 0 48px; */
+        padding: 0;
+        /* margin-left: 10%; */
+        margin: 0 auto;
+        padding-right: calc(984px - 690px);
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        padding: 0 148px;
-        max-width: 690px;
+        
     }
 }
