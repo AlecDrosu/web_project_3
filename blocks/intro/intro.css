@@ -2,12 +2,14 @@
     padding: 0 16px;
     margin: 0;
     margin-bottom: 64px;
+    /* margin-bottom: 20%; */
     max-width: 690px;
 }
 
 @media screen and (min-width: 768px) {
     .intro {
         padding: 0 24px;
+        margin-bottom: 88px;
     }
 }
 
@@ -17,12 +19,13 @@
         padding: 0;
         /* margin-left: 10%; */
         margin: 0 auto;
+        margin-bottom: 92px;
         padding-right: calc(984px - 690px);
     }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .intro {
         
     }
-}
+} */
