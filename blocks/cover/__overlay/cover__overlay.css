@@ -1,14 +1,17 @@
 .cover__overlay {
+
     width: 100%;
     height: 100%;
-    background-color: #2A2C2F;
-    position: absolute;
+    /* background-color: #2A2C2F; */
+    /* background-image: url(/images/route66.jpg); */
+    /* position: absolute;
     top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    left: 0; */
+    /* opacity: 1; */
+    /* transition: opacity 0.3s ease-in-out; */
+    /* background-image: url(/images/route66.jpg); */
 }
 
-.cover__overlay:hover {
+/* .cover__overlay:hover {
     opacity: 0.3;
-}
+} */

@@ -1,0 +1,22 @@
+.cover__link {
+    display: flex;
+    background-image: url(../../../images/__background.png);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    max-width: 1184px;
+    margin: 0 auto;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.cover__link:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../../../images/__background.png);
+    /* transition: background-image 0.3s ease-in-out; */
+}
