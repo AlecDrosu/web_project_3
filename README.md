@@ -21,10 +21,6 @@ Good luck and have fun!
 
 This will me my first attempt at completing the project, it was definetely way harder at completing. Some things were quite easy to implement like display: grid, but getting the objects to enlarge properly between the required screen sizes became a challenge. There are some problems, I was a bit confused on what exactly had to be specified in pixels, and what had to be specified in fractions on other relative units. This was because on the brief, the only value they give are in pixels. I was trying at one point to specify all the values in various percents, but it became essentially guess-and-check to find what percent was the closest to that given pixel value. One thing I would like to do would be to smoother the transition of the cover image. I used transition but this does not seem to do anything, I'll try to do more research and find how to smoother the image transition.
 
-I fixed the problem with the horizontal scrolling, the scroll bars were not showing up in devtools so I was confused what was causing a problem. I beleive I figured this out by changing the paddings on the first image.
-
-**Something I wanted to mention is that the github.io project was not showing the current changes until I cleared the cache in google**
-
-This was just something I wanted to mention since I am unfamiliar with the problem, and I don't want to have a code review with it not working, even though the correct changes are in the code. 
+I had a problem where the height was not accurate for the cover image at each breakpoint. I did not know how to adjust the height so it would show the full image at every breakpoint. I spoke to my tutor, and he said that the best thing would just be to set the height to the height at each given breakpoint, so that's what I did.
 
 This is the GitHub Pages link: https://alecdrosu.github.io/web_project_3/index.html#
