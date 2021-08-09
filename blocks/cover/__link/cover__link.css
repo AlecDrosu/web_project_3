@@ -1,6 +1,6 @@
 .cover__link {
     display: flex;
-    background-image: url(../../../images/__background.png);
+    background-image: linear-gradient(rgba(42, 44, 47, 0.3),rgba(42, 44, 47, 0.3)), url(../../../images/__background.png);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -9,14 +9,12 @@
     color: #fff;
     text-decoration: none;
     background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: contain;
     max-width: 1184px;
     margin: 0 auto;
+    background-size: cover;
     transition: background-image 0.3s ease-in-out;
 }
 
 .cover__link:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../../../images/__background.png);
-    /* transition: background-image 0.3s ease-in-out; */
+    background-image: linear-gradient(rgba(42, 44, 47, 0.8),rgba(42, 44, 47, 0.8)), url(../../../images/__background.png);
 }

@@ -13,7 +13,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .footer__links {
+    .footer__copyright {
         padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1184px) {
+    .footer__copyright {
+        padding-right: 0;
     }
 }

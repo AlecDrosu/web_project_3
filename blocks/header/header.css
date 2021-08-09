@@ -1,7 +1,6 @@
 .header {
     display: flex;
     justify-content: space-between;
-    /* padding: 5% 3% 0;  As apposed to padding: 20px 16px 0; */
     align-items: center;
     max-width: 984px;
     padding: 20px 16px 50px;

@@ -10,12 +10,13 @@
 <body class="page">
     <header class="header">
         <img src="./images/logo (5).svg" alt="USA" class="header__logo">
-        <nav class="language">
+        <div class="language">
             <a href="#" class="link language__link language__link_active">En</a>
             <a href="#" class="link language__link">Es</a>
-        </nav>
+        </div>
     </header>
-    <section class="lead">
+    <main class="main">
+        <section class="lead">
         <h1 class="lead__title">
             From Portland to Portland
         </h1>
@@ -29,43 +30,43 @@
     </section>
     <section class="intro">
         <h2 class="intro__title">Know the country you live in a little better</h2>
-        <p class="intro__text intro__text_large">That's exactly what we have arranged for you via this travel story</p>
+        <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
         <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
 
         <ul class="intro__list">
             <li class="intro__list-item">
-                <span class="intro__list-item-bold">Distance (miles)</span>
+                <span class="intro__span-accent">Distance (miles)</span>
                  3,644
             </li>
             <li class="intro__list-item">
-                <span class="intro__list-item-bold">Travel time</span>
-                 (days) 22
+                <span class="intro__span-accent">Travel time (days)</span>
+                 22
             </li>
             <li class="intro__list-item">
-                <span class="intro__list-item-bold">Highest point (feet)</span>
+                <span class="intro__span-accent">Highest point (feet)</span>
                  9,613
             </li>
             <li class="intro__list-item">
-                <span class="intro__list-item-bold">Lowest point (feet)</span>
+                <span class="intro__span-accent">Lowest point (feet)</span>
                  -3
             </li>
         </ul>
         
     </section>
-    <div class="photo-grid">
+    <section class="photo-grid">
         <img src="images/__item.png" alt="Road" class="photo-grid__item">
-        <img src="images/__item (1).png" alt="Beach" class="photo-grid__item">
-        <img src="images/__item (2).png" alt="Sand" class="photo-grid__item">
-        <img src="images/__item (3).png" alt="Trees" class="photo-grid__item">
-        <img src="images/__item (4).png" alt="Fog" class="photo-grid__item">
-        <img src="images/__item (5).png" alt="Mountains" class="photo-grid__item">
-        <img src="images/__item (6).png" alt="Dirt" class="photo-grid__item">
-        <img src="images/__item (7).png" alt="Bush" class="photo-grid__item">
-        <img src="images/__item (8).png" alt="Grass?" class="photo-grid__item">
-        <img src="images/__item (9).png" alt="sand again" class="photo-grid__item">
-        <img src="images/__item (10).png" alt="Bird" class="photo-grid__item">
-        <img src="images/__item (11).png" alt="Road" class="photo-grid__item">
-    </div>
+        <img src="images/__item1.png" alt="Beach" class="photo-grid__item">
+        <img src="images/__item2.png" alt="Sand" class="photo-grid__item">
+        <img src="images/__item3.png" alt="Trees" class="photo-grid__item">
+        <img src="images/__item4.png" alt="Fog" class="photo-grid__item">
+        <img src="images/__item5.png" alt="Mountains" class="photo-grid__item">
+        <img src="images/__item6.png" alt="Dirt" class="photo-grid__item">
+        <img src="images/__item7.png" alt="Bush" class="photo-grid__item">
+        <img src="images/__item8.png" alt="Grass?" class="photo-grid__item">
+        <img src="images/__item9.png" alt="sand again" class="photo-grid__item">
+        <img src="images/__item10.png" alt="Bird" class="photo-grid__item">
+        <img src="images/__item11.png" alt="Road" class="photo-grid__item">
+    </section>
     <section class="places">
         <article class="place">
             <div class="place__row">
@@ -152,27 +153,22 @@
         </article>
     </section>
     <section class="cover">
-        <div class="cover__overlay">
-            <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link" target="_blank">
-                
-                    
-                
-            <!-- <img src="./images/route66.jpg" alt="route 66" class="cover__background"> -->
-                <!-- <div class="cover__text"> -->
-                    <h2 class="cover__title">Historic Route 66</h2>
-                    <p class="cover__subtitle">The Main Street of America
-                        from Santa Monica, Cal. to Chicago, Ill.</p>
-                <!-- </div> -->
-            </a>
-        </div>
+        <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link" target="_blank">
+            <h2 class="cover__title">Historic Route 66</h2>
+            <p class="cover__subtitle">The Main Street of America
+                from Santa Monica, Cal. to Chicago, Ill.</p>
+        </a>
     </section>
-    <div class="footer">
-        <ul class="footer__links">
-            <li><a href="https://yandex.com/maps" class="link footer__link">Maps</a></li>
-            <li><a href="https://yandex.com/weather/moscow" class="link footer__link">Weather</a></li>
-            <li><a href="https://calendar.yandex.ru" class="link footer__link">Calender</a></li>
-        </ul>
+    </main>
+    <footer class="footer">
+        <nav class="sites">
+            <ul class="sites__links">
+                <li><a href="https://yandex.com/maps" class="link sites__link">Maps</a></li>
+                <li><a href="https://yandex.com/weather/moscow" class="link sites__link">Weather</a></li>
+                <li><a href="https://calendar.yandex.ru" class="link sites__link">Calender</a></li>
+            </ul>
+        </nav>
         <p class="footer__copyright">&#169; 2021. Alec Drosu</p>
-    </div>
+    </footer>
 </body>
 </html>
